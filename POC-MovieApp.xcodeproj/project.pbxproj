@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4598BE2128D9F48500A00D62 /* TestAPIHandlerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4598BE2028D9F48500A00D62 /* TestAPIHandlerClass.swift */; };
 		45F900E128D996F6000449FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F900E028D996F6000449FE /* AppDelegate.swift */; };
 		45F900E328D996F6000449FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F900E228D996F6000449FE /* SceneDelegate.swift */; };
-		45F900E528D996F6000449FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F900E428D996F6000449FE /* ViewController.swift */; };
 		45F900E828D996F6000449FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F900E628D996F6000449FE /* Main.storyboard */; };
 		45F900EA28D996F8000449FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F900E928D996F8000449FE /* Assets.xcassets */; };
 		45F900ED28D996F8000449FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F900EB28D996F8000449FE /* LaunchScreen.storyboard */; };
 		45F900F828D996F8000449FE /* POC_MovieAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F900F728D996F8000449FE /* POC_MovieAppTests.swift */; };
 		45F9010228D996F8000449FE /* POC_MovieAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9010128D996F8000449FE /* POC_MovieAppUITests.swift */; };
 		45F9010428D996F8000449FE /* POC_MovieAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9010328D996F8000449FE /* POC_MovieAppUITestsLaunchTests.swift */; };
+		45F9011228D99804000449FE /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9011128D99804000449FE /* MovieModel.swift */; };
+		45F9011528D99852000449FE /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9011428D99852000449FE /* APIHandler.swift */; };
+		45F9011828D998F0000449FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9011728D998F0000449FE /* ViewController.swift */; };
+		45F9011C28D9ADFE000449FE /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9011B28D9ADFE000449FE /* NewsTableViewCell.swift */; };
+		45F9011F28D9AF41000449FE /* NeswableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9011E28D9AF41000449FE /* NeswableViewCellViewModel.swift */; };
+		45F9012128D9C99F000449FE /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9012028D9C99F000449FE /* NewsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4598BE2028D9F48500A00D62 /* TestAPIHandlerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAPIHandlerClass.swift; sourceTree = "<group>"; };
 		45F900DD28D996F6000449FE /* POC-MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC-MovieApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F900E028D996F6000449FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45F900E228D996F6000449FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		45F900E428D996F6000449FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		45F900E728D996F6000449FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45F900E928D996F8000449FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45F900EC28D996F8000449FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		45F900FD28D996F8000449FE /* POC-MovieAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC-MovieAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F9010128D996F8000449FE /* POC_MovieAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_MovieAppUITests.swift; sourceTree = "<group>"; };
 		45F9010328D996F8000449FE /* POC_MovieAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_MovieAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		45F9011128D99804000449FE /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		45F9011428D99852000449FE /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		45F9011728D998F0000449FE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45F9011B28D9ADFE000449FE /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		45F9011E28D9AF41000449FE /* NeswableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeswableViewCellViewModel.swift; sourceTree = "<group>"; };
+		45F9012028D9C99F000449FE /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +111,12 @@
 		45F900DF28D996F6000449FE /* POC-MovieApp */ = {
 			isa = PBXGroup;
 			children = (
+				45F9011D28D9AF1F000449FE /* ViewModel */,
+				45F9011628D9989D000449FE /* View */,
+				45F9011328D9983E000449FE /* APIHandler */,
+				45F9011028D997F0000449FE /* Model */,
 				45F900E028D996F6000449FE /* AppDelegate.swift */,
 				45F900E228D996F6000449FE /* SceneDelegate.swift */,
-				45F900E428D996F6000449FE /* ViewController.swift */,
 				45F900E628D996F6000449FE /* Main.storyboard */,
 				45F900E928D996F8000449FE /* Assets.xcassets */,
 				45F900EB28D996F8000449FE /* LaunchScreen.storyboard */,
@@ -114,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				45F900F728D996F8000449FE /* POC_MovieAppTests.swift */,
+				4598BE2028D9F48500A00D62 /* TestAPIHandlerClass.swift */,
 			);
 			path = "POC-MovieAppTests";
 			sourceTree = "<group>";
@@ -125,6 +141,40 @@
 				45F9010328D996F8000449FE /* POC_MovieAppUITestsLaunchTests.swift */,
 			);
 			path = "POC-MovieAppUITests";
+			sourceTree = "<group>";
+		};
+		45F9011028D997F0000449FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45F9011E28D9AF41000449FE /* NeswableViewCellViewModel.swift */,
+				45F9011128D99804000449FE /* MovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45F9011328D9983E000449FE /* APIHandler */ = {
+			isa = PBXGroup;
+			children = (
+				45F9011428D99852000449FE /* APIHandler.swift */,
+			);
+			path = APIHandler;
+			sourceTree = "<group>";
+		};
+		45F9011628D9989D000449FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45F9011728D998F0000449FE /* ViewController.swift */,
+				45F9011B28D9ADFE000449FE /* NewsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45F9011D28D9AF1F000449FE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				45F9012028D9C99F000449FE /* NewsViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +308,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45F900E528D996F6000449FE /* ViewController.swift in Sources */,
+				45F9011828D998F0000449FE /* ViewController.swift in Sources */,
+				45F9012128D9C99F000449FE /* NewsViewModel.swift in Sources */,
+				45F9011C28D9ADFE000449FE /* NewsTableViewCell.swift in Sources */,
+				45F9011F28D9AF41000449FE /* NeswableViewCellViewModel.swift in Sources */,
+				45F9011228D99804000449FE /* MovieModel.swift in Sources */,
+				45F9011528D99852000449FE /* APIHandler.swift in Sources */,
 				45F900E128D996F6000449FE /* AppDelegate.swift in Sources */,
 				45F900E328D996F6000449FE /* SceneDelegate.swift in Sources */,
 			);
@@ -268,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4598BE2128D9F48500A00D62 /* TestAPIHandlerClass.swift in Sources */,
 				45F900F828D996F8000449FE /* POC_MovieAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
